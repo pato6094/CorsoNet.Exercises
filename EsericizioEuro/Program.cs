@@ -15,8 +15,10 @@ namespace EsericizioEuro
             Console.WriteLine("Italia");
             italiaCountry.PenaMorte();
             italiaCountry.calculateSpread();
+            italiaCountry.monetaUnica();
+            italiaCountry.checkEuroZona();
             Console.WriteLine("-----");
-
+            
             Console.WriteLine("Cina");
             cinaCountry.PenaMorte();
             

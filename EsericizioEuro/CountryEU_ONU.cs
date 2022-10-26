@@ -4,7 +4,7 @@ namespace EsericizioEuro
 {
     internal class CountryEU_ONU : Country, UnioneEuropea, ONU, CorteEuropea
     {
-        public CountryEU_ONU(int popolazione, float areaGeografica, string continente, string nome, string costituzione, string bandiera, string moneta, string linguaUfficiale, float pil, bool penaMorte) : base(popolazione, areaGeografica, continente, nome, costituzione, bandiera, moneta, pil, penaMorte, linguaUfficiale)
+        public CountryEU_ONU(int popolazione, float areaGeografica, string continente, string nome, string costituzione, string bandiera, string moneta, string linguaUfficiale, float pil, bool penaMorte) : base(popolazione, areaGeografica, continente, nome, costituzione, bandiera, moneta, linguaUfficiale, pil, penaMorte)
         {
 
         }
